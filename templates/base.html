@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+{% include 'head.html' %}
+<head>
+<style type="text/css">
+.asteriskField {
+	display: none;
+}
+
+form .alert ul li {
+	list-style: none;
+}
+
+form .alert ul {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	1background-image: url('static/images/image6.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+{% include 'header.html' %}
+
+{% block content %}
+
+{% endblock %}
+
+{% include 'footer.html' %}
+{% include 'scripts.html' %}
+
+
+</body>
+</html>
